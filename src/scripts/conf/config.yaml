@@ -1,0 +1,18 @@
+defaults:
+- _self_
+- 000_preprocess: 000_preprocess_default
+- 100_1dunet: 100_1dunet_default
+- 001_preprocess: 001_preprocess_default
+- 101_1dcnngru: 101_1dcnngru_default
+- 002_preprocess: 002_preprocess_default
+- 102_1dcnngru: 102_1dcnngru_default
+- 010_preprocess: 010_preprocess_default
+- 020_preprocess: 020_preprocess_default
+- 200_sttransformer: 200_sttransformer_default
+- 103_1dcnn_gru_schefree: 103_1dcnn_gru_schefree_default
+- 003_preprocess: 003_preprocess_default
+- 104_1dcnntransformer_2stage: 104_1dcnntransformer_2stage_default
+- 105_pesudo_labeling: 105_pesudo_labeling_default
+- 106_train_withpesudo: 106_train_withpesudo_default
+input_dir: /mnt/nfs/home/hidebu/study/NFL-Big-Data-Bowl-2026---Prediction/data
+output_dir: ../output/
