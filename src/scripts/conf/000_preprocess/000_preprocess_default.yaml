@@ -1,0 +1,71 @@
+exp: 000_preproces_ver00 # TODO: 毎回、実験の連番を変える
+seed: 1129
+# for Debug
+debug: false
+author: hidebu
+competition: mabe-challenge # TODO: コンペ名を入れる
+INPUT_DIR:  /mnt/nfs/home/hidebu/study/MABe-Challenge---Social-Action-Recognition-in-Mice/data/raw
+TRAIN_TRACKING_DIR: /mnt/nfs/home/hidebu/study/MABe-Challenge---Social-Action-Recognition-in-Mice/data/raw/train_tracking
+TRAIN_ANNOTATION_DIR: /mnt/nfs/home/hidebu/study/MABe-Challenge---Social-Action-Recognition-in-Mice/data/raw/train_annotation
+TEST_TRACKING_DIR: /mnt/nfs/home/hidebu/study/MABe-Challenge---Social-Action-Recognition-in-Mice/data/raw/test_tracking
+OUTPUT_DIR: /mnt/nfs/home/hidebu/study/MABe-Challenge---Social-Action-Recognition-in-Mice/data/processed
+INDEX_COLS: [
+    "video_id",
+    "agent_mouse_id",
+    "target_mouse_id",
+    "video_frame",
+]
+BODY_PARTS: [
+    "ear_left",
+    "ear_right",
+    "nose",
+    "neck",
+    "body_center",
+    "lateral_left",
+    "lateral_right",
+    "hip_left",
+    "hip_right",
+    "tail_base",
+    "tail_tip",
+]
+SELF_BEHAVIORS: [
+    "biteobject",
+    "climb",
+    "dig",
+    "exploreobject",
+    "freeze",
+    "genitalgroom",
+    "huddle",
+    "rear",
+    "rest",
+    "run",
+    "selfgroom",
+]
+PAIR_BEHAVIORS: [
+    "allogroom",
+    "approach",
+    "attack",
+    "attemptmount",
+    "avoid",
+    "chase",
+    "chaseattack",
+    "defend",
+    "disengage",
+    "dominance",
+    "dominancegroom",
+    "dominancemount",
+    "ejaculate",
+    "escape",
+    "flinch",
+    "follow",
+    "intromit",
+    "mount",
+    "reciprocalsniff",
+    "shepherd",
+    "sniff",
+    "sniffbody",
+    "sniffface",
+    "sniffgenital",
+    "submit",
+    "tussle",
+]
