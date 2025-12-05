@@ -1,5 +1,5 @@
-# 🏈 NFL Big Data Bowl 2026 – Trajectory Prediction  
-このリポジトリは **NFL Big Data Bowl 2026 - Prediction コンペティション** のための開発環境です。  
+# 🐀 MABe-Challenge---Social-Action-Recognition-in-Mice
+このリポジトリは **MABe-Challenge---Social-Action-Recognition-in-Mice コンペティション** のための開発環境です。  
 Neural Network モデルの学習、特徴量設計、前処理、可視化、実験管理までを一貫して実行できる構成になっています。
 
 ---
