@@ -458,7 +458,7 @@ def main(cfg: DictConfig) -> None:
     tracking_paths = glob_walk(config.TRAIN_TRACKING_DIR, "**/*.parquet")
     video2tracking = build_video_path_dict(tracking_paths) # 全動画分のtrackingパスを辞書化
     annotation_paths = glob_walk(Path(config.TRAIN_ANNOTATION_DIR), "**/*.parquet")
-    events = load_all_annotations(annotation_paths, train_df)  # ←ここは前に書いた関数
+    events = load_all_annotations(annotation_paths, train_df) # 全動画分のannotationを結合
 
     # 4. ラベル付き動画だけループ
     labeled_video_ids = behavior_pairs["video_id"].unique().to_list()
